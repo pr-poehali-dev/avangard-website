@@ -102,20 +102,52 @@ const Index = () => {
 
   const gallery = [
     {
-      url: 'https://cdn.poehali.dev/files/IMG_8232.JPG',
-      title: 'Полевые занятия'
+      url: 'https://cdn.poehali.dev/files/5301093269930445695.jpg',
+      title: 'Стрелковая подготовка'
     },
     {
-      url: 'https://cdn.poehali.dev/files/IMG_E8561.JPG',
-      title: 'Зимняя подготовка'
+      url: 'https://cdn.poehali.dev/files/5211021891563359682.jpg',
+      title: 'Строевая подготовка'
     },
     {
-      url: 'https://cdn.poehali.dev/files/IMG_8604.JPG',
-      title: 'Специальная подготовка'
+      url: 'https://cdn.poehali.dev/files/5260384216984260473.jpg',
+      title: 'Радиационная защита'
     },
     {
-      url: 'https://cdn.poehali.dev/files/1b0381f8-e4bf-4706-8480-b4836671806b.jpg',
+      url: 'https://cdn.poehali.dev/files/5192832666406350556.jpg',
       title: 'Тактические занятия'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/5192832666406350553.jpg',
+      title: 'Обучение курсантов'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/5280532144792998321.jpg',
+      title: 'Теоретическая подготовка'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/5192832666406350554.jpg',
+      title: 'Групповые занятия'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/5211021891563359680.jpg',
+      title: 'Обучение стрельбе'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/5260384216984260467.jpg',
+      title: 'Зимние учения'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/5192832666406350555.jpg',
+      title: 'Командная работа'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/5211021891563359681.jpg',
+      title: 'Тактическая подготовка'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/5197386852158538499.jpg',
+      title: 'Строевые упражнения'
     }
   ];
 
@@ -154,9 +186,9 @@ const Index = () => {
       </nav>
 
       <section id="home" className="pt-20 min-h-screen flex items-center bg-gradient-to-br from-primary via-primary/90 to-secondary relative overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 opacity-25">
           <img 
-            src="https://cdn.poehali.dev/files/IMG_8232.JPG" 
+            src="https://cdn.poehali.dev/files/5211021891563359682.jpg" 
             alt="Hero background" 
             className="w-full h-full object-cover"
           />
@@ -177,6 +209,52 @@ const Index = () => {
                 <Icon name="Info" className="mr-2" size={20} />
                 Узнать больше
               </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl group">
+              <img 
+                src="https://cdn.poehali.dev/files/5301093269930445695.jpg" 
+                alt="Стрелковая подготовка" 
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                <div className="p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Стрелковая подготовка</h3>
+                  <p className="text-sm opacity-90">Обучение обращению с оружием</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl group">
+              <img 
+                src="https://cdn.poehali.dev/files/5260384216984260473.jpg" 
+                alt="Радиационная защита" 
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                <div className="p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Специальная подготовка</h3>
+                  <p className="text-sm opacity-90">Радиационная и химическая защита</p>
+                </div>
+              </div>
+            </div>
+            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl group">
+              <img 
+                src="https://cdn.poehali.dev/files/5211021891563359682.jpg" 
+                alt="Строевая подготовка" 
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                <div className="p-6 text-white">
+                  <h3 className="text-2xl font-bold mb-2">Строевая подготовка</h3>
+                  <p className="text-sm opacity-90">Командная работа и дисциплина</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -216,7 +294,7 @@ const Index = () => {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl">
               <img 
-                src="https://cdn.poehali.dev/files/IMG_E8561.JPG" 
+                src="https://cdn.poehali.dev/files/5301093269930445695.jpg" 
                 alt="О центре" 
                 className="w-full h-full object-cover"
               />
