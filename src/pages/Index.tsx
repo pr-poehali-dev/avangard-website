@@ -102,16 +102,20 @@ const Index = () => {
 
   const gallery = [
     {
-      url: 'https://cdn.poehali.dev/projects/2d83e698-583d-43b3-9101-926013e6e0c3/files/8827893a-7e72-46c2-b27c-8b72f080db69.jpg',
-      title: 'Торжественное построение'
-    },
-    {
-      url: 'https://cdn.poehali.dev/projects/2d83e698-583d-43b3-9101-926013e6e0c3/files/8daf27f7-0304-48c2-993a-3cd1d43efb97.jpg',
+      url: 'https://cdn.poehali.dev/files/IMG_8232.JPG',
       title: 'Полевые занятия'
     },
     {
-      url: 'https://cdn.poehali.dev/projects/2d83e698-583d-43b3-9101-926013e6e0c3/files/23c7d3a6-a8e8-4b78-8c8c-fcef1861c10c.jpg',
-      title: 'Музей боевой славы'
+      url: 'https://cdn.poehali.dev/files/IMG_E8561.JPG',
+      title: 'Зимняя подготовка'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/IMG_8604.JPG',
+      title: 'Специальная подготовка'
+    },
+    {
+      url: 'https://cdn.poehali.dev/files/1b0381f8-e4bf-4706-8480-b4836671806b.jpg',
+      title: 'Тактические занятия'
     }
   ];
 
@@ -129,7 +133,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <Icon name="Shield" size={32} className="text-accent" />
+              <img src="https://cdn.poehali.dev/files/ЗАСТАВКА.jpg" alt="Авангард" className="h-12 w-auto" />
               <div>
                 <h1 className="text-2xl font-bold">Авангард</h1>
                 <p className="text-xs opacity-90">Военно-патриотический центр</p>
@@ -152,7 +156,7 @@ const Index = () => {
       <section id="home" className="pt-20 min-h-screen flex items-center bg-gradient-to-br from-primary via-primary/90 to-secondary relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://cdn.poehali.dev/projects/2d83e698-583d-43b3-9101-926013e6e0c3/files/8827893a-7e72-46c2-b27c-8b72f080db69.jpg" 
+            src="https://cdn.poehali.dev/files/IMG_8232.JPG" 
             alt="Hero background" 
             className="w-full h-full object-cover"
           />
@@ -212,7 +216,7 @@ const Index = () => {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl">
               <img 
-                src="https://cdn.poehali.dev/projects/2d83e698-583d-43b3-9101-926013e6e0c3/files/8daf27f7-0304-48c2-993a-3cd1d43efb97.jpg" 
+                src="https://cdn.poehali.dev/files/IMG_E8561.JPG" 
                 alt="О центре" 
                 className="w-full h-full object-cover"
               />
